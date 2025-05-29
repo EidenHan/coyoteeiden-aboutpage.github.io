@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      background: #357ABD;
+      padding: 0.75rem 2rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 2rem;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #e3ecf8;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    footer {
+      background: #2b2b2b;
+      color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      nav a {
+        margin: 0.5rem 0;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+	.coyote-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .coyote-text-box {
+      display: inline-block;
+      text-align: left;
+      max-width: 600px;
+      padding: 10px 20px;
+      text-indent: 30px;
+      line-height: 1.6;
+    }
+	.coyote-text-box ul {
+      padding-left: 40px;
+      margin-top: 10px;
+    }
+	.coyote-danger-section {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .coyote-danger-section h2 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+
+    .coyote-danger-section ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+	.coyote-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      max-width: 1000px;
+      margin: 30px auto;
+      gap: 30px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .coyote-image {
+      flex-shrink: 0;
+    }
+
+    .coyote-image img {
+      max-width: 500px;
+	  max-height: 600px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .coyote-danger-section {
+      max-width: 700px;
+    }
+	footer {
+      background: #2b2b2b;
+      color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+	.site-logo {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+  <img src="websitelogo.png" alt="Coyote Alert Logo" class="site-logo">
+  <h1>Orange County CoyoteAlert</h1>
+</header>
+
+  <nav>
+    <a href="https://coyoteeiden.neocities.org/">Home</a>
+    <a href="https://coyoteeiden-report-a-case.neocities.org/">Report a Case</a>
+    <a href="https://coyoteeiden-community.neocities.org/">Community</a>
+    <a href="#">Coyote Page</a>
+  </nav>
+</br>
+<div class="coyote-section">
+  <h1>About Coyote</h1>
+  <br><br>
+  <img src="urbanizationcoyoteimg.jpg" width="500" height="300" />
+  <br><br>
+  <div class="coyote-text-box">
+    Coyotes (<em>Canis latrans</em>) are highly adaptable wild canines native to North America.
+	Traditionally found in deserts and prairies, they’ve expanded into urban and suburban 
+	environments due to habitat loss and food availability. Coyotes are about the size of
+	a medium dog, with grayish-brown fur, a bushy tail, and a pointed snout. They are usually
+	most active during dawn and dusk (crepuscular), but in human-populated areas, they may
+	become more nocturnal to avoid people.
+	</br>
+	</br>
+	<strong><h3>Coyotes are opportunistic omnivores. Their diet includes:</h3></strong>
+	<ul>
+      <li>Small mammals (rabbits, rodents)</li>
+      <li>Fruits and berries</li>
+      <li>Insects</li>
+      <li>Pet food and garbage (in urban areas)</li>
+      <li>Occasionally, small pets like cats or small dogs</li>
+    </ul>
+  </div>
+</div>
+</br>
+<hr>
+</br>
+<div class="coyote-wrapper">
+  <div class="coyote-image">
+  <img src="coyotekillingpetsimg.jpg" width="800" height="800" alt="Coyote harming pets">
+  </br></br></br>
+  </br></br></br>
+  </br></br></br>
+  <img src="coyotekillingpetsimg2.jpg" width="800" height="800" alt="Coyote harming pets - part 2">
+</div>
+
+
+  <div class="coyote-danger-section">
+  <h2>🏘️ 1. Urban Development Pushes Coyotes Closer</h2>
+  <p>
+    As cities and suburbs grow, they often replace or shrink natural habitats—like forests, hills, and mountains—where coyotes used to live. This forces coyotes to move into residential neighborhoods in search of food and shelter.
+  </p>
+
+  <h2>🍗 2. Easier Access to Food</h2>
+  <p>Coyotes are opportunistic feeders. In towns, they find:</p>
+  <ul>
+    <li>Pet food left outdoors</li>
+    <li>Unsecured trash cans</li>
+    <li>Birdseed, compost piles, and fruit trees</li>
+    <li>Small pets like cats or small dogs that are left outside or walked off-leash</li>
+  </ul>
+  <p>These are much easier to find than chasing rabbits in the wild—so they stay in towns where food is abundant and easier to catch.</p>
+
+  <h2>🐾 3. Pets Resemble Prey</h2>
+  <p>
+    Coyotes are natural predators of small mammals like rabbits and rodents. Small pets resemble these prey animals, especially when they move quickly or are left alone. In some cases, coyotes may even lure dogs out by pretending to play, then attack with a pack.
+  </p>
+
+  <h2>🌙 4. Night Activity Increases Risk</h2>
+  <p>
+    Coyotes often roam at night or early morning when people aren't watching. If pets are outside during these hours—especially in unfenced yards—they become easy targets.
+  </p>
+</div>
+</div>
+ 
+<center>
+ </br></br>
+	<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3><b>Orange County CoyoteAlert</b></h3>
+      <p>
+	  </br>
+	  </br>
+        Helping the community stay informed and safe through local awareness and citizen reporting.
+      </p>
+	  </br> </br></br>
+	  
+      <p>Contact: <a href="mailto:eidenhan44@gmail.com">eidenhan44@gmail.com</a></p>
+    </div>
+	</br></br>
+    <div class="footer-links">
+      <div>
+        <h4>Quick Links</h4>
+		</br>
+        <ul>
+          <li><a href="https://coyoteeiden.neocities.org/">Home</a></li>
+		  </br>
+          <li><a href="https://coyoteeiden-report-a-case.neocities.org/">Report a Case</a></li>
+		  </br>
+          <li><a href="https://coyoteeiden-community.neocities.org/">Community</a></li>
+		  </br>
+          <li><a href="#">Coyote Page</a></li>
+		  </br> </br>
+        </ul>
+      </div>
+    </div>
+	
+    <div class="footer-social">
+      <h4>Stay Connected</h4>
+      <p>Your vigilance keeps others safe.</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Orange County CoyoteAlert | Created by Eiden Han</p>
+  </div>
+</footer>
+
+  </p>
+</center>
+
+</body>
+</html>
